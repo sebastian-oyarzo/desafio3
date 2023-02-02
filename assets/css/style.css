@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family:'Raleway', sans-serif,'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-color: #000;
+    font-weight: 300;
+}
+
+header
+{
+    border-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1
+{
+    font: normal normal medium 50px/59px Raleway, sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+.img-header
+{
+    margin: auto;
+    width: 100%;
+    height: 727px;
+    text-align: center;
+}
+
+.primera
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    height: 348px;
+}
+
+.primera-parrafo
+{
+    width: 475px;
+    height: 197px;
+    display: inline-block;
+    text-align: left;
+    padding: 76px 106px 75px 150px;
+}
+
+.primera-img
+{
+    margin: 5%;
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+}
+
+.segunda
+{
+    background-color: #2B2720;
+    top: 1141px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    color: #fff;
+    margin: auto;
+}
+
+.segunda-h2
+{
+    display: inline-block;
+    padding: 75px;
+    font-size: 40px;
+}
+
+table, th, tr
+{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+td
+{
+    font-size: 25px;
+}
+
+th
+{
+    font-size: 40px;
+}
+
+.tercera
+{
+    background-color: #000;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-tercera
+{
+    width: 316px;
+    height: 202px;
+}
+footer
+{
+    width: 100%;
+    height: 102px;
+    background-color: #2B2720;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer
+{
+    margin: auto;
+}
